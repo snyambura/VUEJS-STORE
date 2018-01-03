@@ -68,6 +68,7 @@
         this.getItems()
 
       },
+
       getItems: function () {
         this.itemlist = JSON.parse(localStorage.getItem("items"))
       },
